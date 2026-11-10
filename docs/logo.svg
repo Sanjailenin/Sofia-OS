@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1D3A"/>
+      <stop offset="1" stop-color="#07080F"/>
+    </linearGradient>
+    <linearGradient id="wave" gradientUnits="userSpaceOnUse" x1="276" y1="0" x2="748" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="0.5" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C084FC" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#C084FC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(512 512) scale(0.8583) translate(-512 -512)">
+  <rect x="32" y="32" width="960" height="960" rx="216" fill="url(#bg)"/>
+  <ellipse cx="512" cy="512" rx="400" ry="260" fill="url(#glow)"/>
+  <rect x="152" y="364" width="720" height="296" rx="148" fill="#000"/>
+  <rect x="152" y="364" width="720" height="296" rx="148" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="4"/>
+  <g fill="url(#wave)">
+    <rect x="276" y="484" width="40" height="56" rx="20"/>
+    <rect x="348" y="448" width="40" height="128" rx="20"/>
+    <rect x="420" y="412" width="40" height="200" rx="20"/>
+    <rect x="492" y="434" width="40" height="156" rx="20"/>
+    <rect x="564" y="392" width="40" height="240" rx="20"/>
+    <rect x="636" y="428" width="40" height="168" rx="20"/>
+    <rect x="708" y="466" width="40" height="92" rx="20"/>
+  </g>
+  </g>
+</svg>

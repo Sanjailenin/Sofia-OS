@@ -1,0 +1,4 @@
+module CSherpa [system] {
+    header "c-api.h"
+    export *
+}
